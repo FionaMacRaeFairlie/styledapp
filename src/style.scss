@@ -1,0 +1,21 @@
+// change the theme
+$theme-colors: (
+  "primary": #00d900,
+  "danger": #ffaf36ee
+);
+$body-bg: green;
+$body-color: rgba(43, 62, 19, 0.991);
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+$bgcolor: lightblue; 
+$textcolor: darkblue; 
+$fontsize: 12px; 
+ 
+/* Use the variables */ 
+#root { 
+background-color: $bgcolor;
+color: $textcolor; 
+font-size: $fontsize; 
+} 
